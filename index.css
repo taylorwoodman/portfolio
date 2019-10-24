@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('/430102.jpg');
+  background-repeat: none;
+  background-size: auto;
+  color: white;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Heebo", sans-serif;
+  overflow-y: scroll;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 25px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Heebo", sans-serif;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  width: 90%;
+  height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Heebo", sans-serif;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+width: 90%;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+font-family: "Heebo", sans-serif;
+}
+
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 80%;
+height: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: "Heebo", sans-serif;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Heebo", sans-serif;
+}
+
+.user{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Heebo", sans-serif;
+}
+
+.login{
+height: auto;
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+margin-bottom: 5px;
+font-family: "Heebo", sans-serif;
+}
+
+.lfg{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  font-family: "Heebo", sans-serif;
+}
+
+.link{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Heebo", sans-serif;
+  color: rgb(0, 153, 255)
+}
+
+.desc{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  font-family: "Heebo", sans-serif;
+}
+
+.stack{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  font-family: "Heebo", sans-serif;
+}
+
+.closing{
+width: 90%;
+height: auto;
+display: flex;
+justify-content: center;
+align-self: flex-end;
+flex-wrap: auto;
+margin-top: 20px;
+margin-bottom: 10px;
+font-family: "Heebo", sans-serif;
+}
+
