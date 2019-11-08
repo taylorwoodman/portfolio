@@ -193,3 +193,56 @@ margin-bottom: 10px;
 font-family: "Heebo", sans-serif;
 }
 
+.pic{
+  height: 175px;
+  width: 160px;
+  border-radius: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.418);
+}
+.example{
+  height: 200px;
+  width: 400px;
+  align-self: center;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.418);
+}
+
+.example-container{
+  display: flex;
+  height: 200px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@media(min-width: 700px){
+  .example{
+    height: 250px;
+    width: 500px;
+    align-self: center;
+  }
+  .example-container{
+    display: flex;
+    height: 250px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(min-width: 1000px){
+  .example{
+    height: 300px;
+    width: 600px;
+    align-self: center;
+  }
+  .example-container{
+    display: flex;
+    height: 300px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
