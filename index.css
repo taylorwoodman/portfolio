@@ -84,7 +84,7 @@ body{
   align-items: center;
   font-style: italic;
   width: 90%;
-  height: 15px;
+  height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Heebo", sans-serif;
@@ -190,7 +190,7 @@ justify-content: center;
 align-self: flex-end;
 flex-wrap: auto;
 margin-top: 20px;
-margin-bottom: 10px;
+margin-bottom: 50px;
 font-family: "Heebo", sans-serif;
 }
 
