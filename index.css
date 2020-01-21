@@ -73,8 +73,8 @@ body{
   width: 90%;
   height: 25px;
   font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   font-family: "Heebo", sans-serif;
 }
 
@@ -85,8 +85,8 @@ body{
   font-style: italic;
   width: 90%;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   font-family: "Heebo", sans-serif;
 }
 
@@ -97,8 +97,8 @@ align-items: center;
 height: auto;
 width: 90%;
 font-size: 20px;
-margin-top: 15px;
-margin-bottom: 15px;
+margin-top: 15px !important;
+margin-bottom: 15px !important; 
 font-family: "Heebo", sans-serif;
 }
 
@@ -109,8 +109,8 @@ align-items: center;
 flex-wrap: wrap;
 width: 80%;
 height: auto;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
 font-family: "Heebo", sans-serif;
 }
 
@@ -121,8 +121,8 @@ font-family: "Heebo", sans-serif;
   flex-wrap: wrap;
   width: 90%;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   font-family: "Heebo", sans-serif;
 }
 
@@ -131,8 +131,8 @@ font-family: "Heebo", sans-serif;
   flex-wrap: wrap;
   width: 90%;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   font-family: "Heebo", sans-serif;
 }
 
@@ -142,8 +142,8 @@ width: 200px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 5px !important;
+margin-bottom: 5px !important;
 font-family: "Heebo", sans-serif;
 }
 
@@ -156,15 +156,15 @@ font-family: "Heebo", sans-serif;
 }
 
 .link{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   font-family: "Heebo", sans-serif;
   color: rgb(0, 153, 255)
 }
 
 .desc{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -173,8 +173,8 @@ font-family: "Heebo", sans-serif;
 }
 
 .stack{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -189,8 +189,8 @@ display: flex;
 justify-content: center;
 align-self: flex-end;
 flex-wrap: auto;
-margin-top: 20px;
-margin-bottom: 50px;
+margin-top: 20px !important;
+margin-bottom: 50px !important;
 font-family: "Heebo", sans-serif;
 }
 
