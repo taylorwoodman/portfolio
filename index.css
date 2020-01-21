@@ -247,3 +247,11 @@ font-family: "Heebo", sans-serif;
     align-items: center;
   }
 }
+@media(min-width: 1060px){
+  .projects{
+    width: 1060px;
+  }
+  .about{
+    width: 1060px;
+  }
+}
